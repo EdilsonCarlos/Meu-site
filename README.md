@@ -6,6 +6,10 @@ Coloquei os links dos jogos que vou falar e um pouco sobre eles.
 
 Botei também o conteúdo.
 -----------------------------------------------------------------------------
+Nesse edit eu botei as semânticas e estruturei mais o código
+
+2edit
+---------------------------------------------------------------------------
 
 <!DOCTYPE html>
 <html>
