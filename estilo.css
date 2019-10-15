@@ -9,6 +9,10 @@ melhorei o CSS quanto a posição do HTML na visualização.
 Troquei cores dos backgrounds de alguns itens.
 Mudei alguns atributos das classes e exclui algumas onde eu pude mudar e adaptar melhor o código.
 -------------------------------------
+o3edit css - o5° edit geral:
+
+Nessa edição eu comecei a trabalhar com as imagens que estão no conteúdo.
+To tentando fazer com que elas fiquem só no conteudo de cada um e não tome espaço do outro tema.
 
 
 
@@ -54,6 +58,14 @@ color: #000000;
 	padding-top: 15px;
 	padding-left: 240px;
 	padding-right:240px;
+}
+.rune, .lol, .cf, .six{
+	width: 160px;
+	height: 120px;
+}
+figure {
+  float: right;
+  margin: 10px 10px 10px 10px;
 }
 
 
