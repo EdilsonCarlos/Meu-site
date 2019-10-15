@@ -17,6 +17,10 @@ Inclui a lingaguem e o meta no inicio do código para ficar melhor o entendiment
 Aqui já é o código HTML com CSS inserido externamente.
 Fiz algumas alterações no código quanto a classe e divs.
 Inseri uma img da logo que nos próximos passos vou ta melhorando ela ou possivelmente até trocando ela.
+--------------------------------------------------------------------------
+4edit ->
+Nesse edit eu mudei algumas coisas no CSS.
+Mudei também algumas coisas do código como tirar algumas divs. Tirar algumas classes pra se adaptar melhor ao CSS.
 
 
 <!DOCTYPE html>
