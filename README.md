@@ -22,6 +22,11 @@ Inseri uma img da logo que nos próximos passos vou ta melhorando ela ou possive
 Nesse edit eu mudei algumas coisas no CSS.
 Mudei também algumas coisas do código como tirar algumas divs. Tirar algumas classes pra se adaptar melhor ao CSS.
 
+5°edit - Nele eu inclui as imagens do restante do texto.
+Comecei a organizar essas imagens pelo CSS, logo terminarei.
+Coloquei classe nas figures pra facilitar a estruturar melhor no CSS; Possivelmente eu tire ou adc de forma diferente elas depois.
+--------------------------------------------------------------------------------------------------------------------
+
 
 <!DOCTYPE html>
 <html>
