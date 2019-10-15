@@ -13,6 +13,10 @@ Divide o conteúdo nos articles, coloquei as targets nos links navegaveis.
 Inclui a lingaguem e o meta no inicio do código para ficar melhor o entendimento do navegador.
 2° edit em cima ->
 ---------------------------------------------------------------------------------------
+3edit ->
+Aqui já é o código HTML com CSS inserido externamente.
+Fiz algumas alterações no código quanto a classe e divs.
+Inseri uma img da logo que nos próximos passos vou ta melhorando ela ou possivelmente até trocando ela.
 
 
 <!DOCTYPE html>
@@ -22,6 +26,8 @@ Inclui a lingaguem e o meta no inicio do código para ficar melhor o entendiment
 	<meta charset="utf-8">
 	<title>Trabalho</title>
 </head>
+<link rel="stylesheet" type="text/css" href="estilo.css" />
+<link rel="stylesheet" type="text/css" href="normalize.css" />
 <body>
 <!--Será a barra de navegação horizontal do site-->
 	<nav>
@@ -37,7 +43,7 @@ Inclui a lingaguem e o meta no inicio do código para ficar melhor o entendiment
 	*Lembrando que falta organizar todo o código. 
 	*Por as sections, articles, divs, class e etc...-->
 	<header class="titulo">
-		<h1>JGamers</h1>
+		<h1>JGamers</h1><img src="logo.png">
 	</header>
 	<div class="introgeral">
 		<section class="intro">
@@ -50,23 +56,21 @@ Inclui a lingaguem e o meta no inicio do código para ficar melhor o entendiment
 			</article>
 		</section>
 	</div>
-	<div class="contgeral">
-		<section class="conteudo">
-			<header class="cabecalho3">
-				<h2>Jogos do momento:</h2>
-			</header>
-			<article>
-				<h3>CrossFire AL</h3>
-					<p>CROSSFIRE é um <abbr title="First Person Shooter">FPS</abbr> online gratuito baseado em duas forças mercenárias, Global Risk e Black List, que estão em um conflito global épico. Os jogadores têm ao seu dispor um enorme arsenal de armas de fogo realistas, explosivos, armas brancas e proteções utilizados pelas forças militares do mundo todo. Com modos de jogo variados e cenários únicos e repletos de ação, os jogadores devem trabalhar em conjunto para completar objetivos e ganhar experiência.</p>
-				<h3>RuneScape</h3>
-					<p>Um <abbr title="Multijogadores Massivos Online">MMO</abbr> único ambientado no vasto mundo de fantasia de Guilenor, repleto de raças únicas, guildas e deuses antigos lutando pelo domínio. O RuneScape agora conta com novas formas de jogar, novas habilidades e mais de 200 missões com histórias emocionantes.</p>
-				<h3>League of Legends</h3>
-					<p>Independentemente de você jogar solo ou com amigos, League of Legends é um jogo acelerado, estratégico e altamente competitivo desenvolvido para quem gosta de vitórias suadas.</p>
-				<h3>Rainbow Six Siege</h3>
-					<p>Suba como o sol ardente no horizonte com Operation Ember Rise. Não perca nem um minuto sequer para subir até o topo com Amaru e seu Gancho Garra. Desacelere as coisas e incendeie seus inimigos com Goyo e seu Escudo Volcán.</p>
-			</article>
-		</section>
-	</div>
+	<header class="cabecalho3">
+		<h2>Jogos do momento:</h2>
+	</header>
+	<section class="conteudo">
+		<article>
+			<h3>CrossFire AL</h3>
+				<p>CROSSFIRE é um <abbr title="First Person Shooter">FPS</abbr> online gratuito baseado em duas forças mercenárias, Global Risk e Black List, que estão em um conflito global épico. Os jogadores têm ao seu dispor um enorme arsenal de armas de fogo realistas, explosivos, armas brancas e proteções utilizados pelas forças militares do mundo todo. Com modos de jogo variados e cenários únicos e repletos de ação, os jogadores devem trabalhar em conjunto para completar objetivos e ganhar experiência.</p>
+			<h3>RuneScape</h3>
+				<p>Um <abbr title="Multijogadores Massivos Online">MMO</abbr> único ambientado no vasto mundo de fantasia de Guilenor, repleto de raças únicas, guildas e deuses antigos lutando pelo domínio. O RuneScape agora conta com novas formas de jogar, novas habilidades e mais de 200 missões com histórias emocionantes.</p>
+			<h3>League of Legends</h3>
+				<p>Independentemente de você jogar solo ou com amigos, League of Legends é um jogo acelerado, estratégico e altamente competitivo desenvolvido para quem gosta de vitórias suadas.</p>
+			<h3>Rainbow Six Siege</h3>
+				<p>Suba como o sol ardente no horizonte com Operation Ember Rise. Não perca nem um minuto sequer para subir até o topo com Amaru e seu Gancho Garra. Desacelere as coisas e incendeie seus inimigos com Goyo e seu Escudo Volcán.</p>
+		</article>
+	</section>
 	<!--o rodapé ficará aqui em baixo com dados dos criadores-->
 	<footer>
 		<p>Todos os direitos reservados</p>
