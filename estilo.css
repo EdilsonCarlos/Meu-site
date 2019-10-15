@@ -2,8 +2,13 @@
 Nesse primeiro momento eu trabalhei em pintar cada área divida pra ficar melhor a visualização de como ta ficando
 de onde mais eu preciso trabalhar e arrumar, tanto no CSS como no HTML.
 Trabalhei melhor com a questão das Classes.
+-------------------------------------
+2edit no css- 4edit no código geral:
+
+-------------------------------------
 
 ---------------------------------------------------------
+
 
 nav{
 	display: flex;
@@ -38,24 +43,15 @@ color: #000000;
 
 }
 .titulo{
-	background-color: red;
+	background-color: #00BFFF;
 	display: flex;
 }
-.introgeral{
-	background-color: yellow;
+.geral, .te{
+	background-color: #E8E8E8;
 	display: flex;
+	padding-top: 15px;
+	padding-left: 240px;
+	padding-right:240px;
 }
-.cabecalho3{
-	display: flex;
-	background-color: pink;
-}
-.conteudo{
-background-color: green;
-	display: flex;
-	flex-direction: row;
-	width: 100%;/*largura do elemento em 100%*/
-;/*algura do elemento*/
-/*alinhamento horizontal*/
 
-}
 
