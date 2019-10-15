@@ -1,3 +1,20 @@
+# Meu-site
+Aqui postarei meus códigos do projeto de Programação Básica para Web
+Aqui começo o meu projeto. Nesse primeiro momento, irei fazer só o html básicao. Botar os Navs., H1, H2's, <p>'s, o footer e etc...
+
+Coloquei os links dos jogos que vou falar e um pouco sobre eles.
+
+Botei também o conteúdo.
+-----------------------------------------------------------------------------
+2° edit: 
+Aqui deixei melhor a visualização do código.
+Dividi o conteúdo com sections e divs, onde por meio das classes ficará mais fácil pra por o CSS futuramente.
+Divide o conteúdo nos articles, coloquei as targets nos links navegaveis.
+Inclui a lingaguem e o meta no inicio do código para ficar melhor o entendimento do navegador.
+2° edit em cima ->
+---------------------------------------------------------------------------------------
+
+
 <!DOCTYPE html>
 <html>
 <head>
