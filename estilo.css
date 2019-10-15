@@ -1,1 +1,61 @@
+*Aqui começarei a personalizar o meu site com CSS.
+Nesse primeiro momento eu trabalhei em pintar cada área divida pra ficar melhor a visualização de como ta ficando
+de onde mais eu preciso trabalhar e arrumar, tanto no CSS como no HTML.
+Trabalhei melhor com a questão das Classes.
+
+---------------------------------------------------------
+
+nav{
+	display: flex;
+	flex-direction: column;/*direção do conteúdo*/
+	align-items: center;/*Alinhamento dos itens*/
+	background-color: #4F4F4F; /*cor de fundo*/
+}
+nav ul{
+	display: flex;
+	padding: 0;/*espaçamento interno*/
+	margin: 0;/*espaçamento externo*/
+	width: 70%;/*largura em 70% da pagina*/
+	list-style: none;/*remove marcadores de lista*/
+	color: #f1f1f1; /*cor da fonte*/
+}
+nav ul li{
+	display: flex;
+flex-direction: row;/*direção do conteúdo*/
+width: 100%;/*largura do elemento em 100%*/
+height: 50px;/*algura do elemento*/
+line-height: 50px;/*alinhamento horizontal*/
+text-align: center;/*texto centralizado*/
+}
+nav ul li a{
+	width: 100%;/*largura do elemento em 100%*/
+text-decoration: none;/*remove underline do link*/
+color: #FFFFFF;
+}
+nav ul li a:hover{
+background-color: #008DA9;/*cor de fundo*/
+color: #000000;
+
+}
+.titulo{
+	background-color: red;
+	display: flex;
+}
+.introgeral{
+	background-color: yellow;
+	display: flex;
+}
+.cabecalho3{
+	display: flex;
+	background-color: pink;
+}
+.conteudo{
+background-color: green;
+	display: flex;
+	flex-direction: row;
+	width: 100%;/*largura do elemento em 100%*/
+;/*algura do elemento*/
+/*alinhamento horizontal*/
+
+}
 
