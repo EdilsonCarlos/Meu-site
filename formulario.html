@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <html lang="pt-br">
+    <meta charset="utf-8">
+    <title>Início</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="estilo.css" />
+<link rel="stylesheet" type="text/css" href="normalize.css" />
+<body>
+<!--Será a barra de navegação horizontal do site-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="six.html">Rainbow Six Siege</a></li>
+            <li><a href="runescape.html">RuneScape</a></li>
+            <li><a href="cf.html"> CrossFire AL</a></li>
+            <li><a href="formulario.html">Formulário</a></li>
+        </ul>
+    </nav>
+    <!-- Daqui pra baixo é o conteúdo do site.
+    *Lembrando que falta organizar todo o código. 
+    *Por as sections, articles, divs, class e etc...-->
+    <header class="titulo">
+        <h1>JGamers</h1>
+    </header>
+    <div class="geral">
+        <section>
+            <h2>Nos ajude a melhorar nosso site</h2>
+            <article>
+                <p>Gostariamos de saber qual o público que nos visita e o que você pensa de nós. Para isso trouxemos esse formulário para você preencher e nos ajudar a melhorar cada vez mais.</p>
+            </article>
+        </section>
+        <section class="form">
+            <form>
+                <fieldset><legend>Dados Pessoais</legend>
+                    <label>Nome:<br>
+                        <input type="text" name="nome">
+                    </label><br>
+                    <label>Sobrenome<br>
+                        <input type="text" name="sobrenome">
+                    </label><br>
+                    <label>Sexo<br>
+                    <input type=radio name=sexo value=masculino checked>Masculino
+                </label>
+                <label>
+                    <input type=radio name=sexo value=feminino>Feminino
+                </label><br><br>
+                <label><legend>Telefone:</legend>
+                    <input type="text" name="telefone" pattern="\([0-9]{2}\)9[0-9]{4}-[0-9]{4}"
+                placeholder="(99)99999-9999">
+                </label><br><br>
+                <label><legend>Nascimento</legend>
+                    <input type="date" name="nascimento">
+                </label><br><br>
+                <label>Cidade<input type="text" name="cidade">
+                </label><br><br>
+                <label>Estado
+                    <select>
+                        <option>Selecione um estado</option>
+                        <option>AC</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>AM</option>
+                        <option>BA</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>SC</option>
+                        <option>SP</option>
+                        <option>SE</option>
+                        <option>TO</option>
+                    </select>
+                    <br><br>
+                    <label for="email">Seu email</label>
+                    <input type="text" name="email" id="email">
+                    <br><br>
+                    <label for="assunto">Assunto</label>
+                    <br>
+                    <input type="text" name="assunto" id="assunto">
+                    <br><br>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                    <input type="submit" class="botao" name="enviar" value="Enviar mensagem &raquo;">
+                </label> 
+                </fieldset>
+            </form>
+        </section>          
+    </div>
+    <!--o rodapé ficará aqui em baixo com dados dos criadores-->
+    <section>
+        <footer>
+            <span>&copy; 2019 - JGamers - Todos os direitos reservados</span>
+        </footer>
+    </section>
+</body>
+</html>
