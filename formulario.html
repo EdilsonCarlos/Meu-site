@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Formulário</title>
+</head>
+<body>
+    <h1>Informe seus dados para cadastro</h1>
+    <section class="geral">
+        <div class="login">
+            <form>
+                <fieldset><legend>Dados de Login</legend>
+                    <label>Login:<br>
+                        <input type="text" name="nome">
+                    </label>
+                    <br>
+                    <label>Senha:<br>
+                        <input type="text" name="senha">
+                    </label>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <form>
+                <fieldset><legend>Dados Pessoais</legend>
+                    <label>Nome:<br>
+                        <input type="text" name="nome">
+                    </label><br>
+                    <label>Sobrenome<br>
+                        <input type="text" name="sobrenome">
+                    </label><br>
+                    <label>Sexo<br>
+                    <input type=radio name=sexo value=masculino checked>Masculino
+                </label>
+                <label>
+                    <input type=radio name=sexo value=feminino>Feminino
+                </label><br><br>
+                <label><legend>CPF:</legend>
+                    <input type="text" name="cpf" pattern="\([0-9]{2}\)9[0-9]{4}-[0-9]{4}"
+                placeholder="000.000.000-00">
+                </label><br><br>
+                <label><legend>Telefone:</legend>
+                    <input type="text" name="telefone" pattern="\([0-9]{2}\)9[0-9]{4}-[0-9]{4}"
+                placeholder="(99)99999-9999">
+                </label><br><br>
+                <label><legend>Nascimento</legend>
+                    <input type="date" name="nascimento">
+                </label><br><br>
+                <label>Cidade<input type="text" name="cidade">
+                </label>
+                <label>Estado
+                    <select>
+                        <option>AC</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>AM</option>
+                        <option>BA</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>SC</option>
+                        <option>SP</option>
+                        <option>SE</option>
+                        <option>TO</option>
+                    </select>
+                </label> 
+                </fieldset>
+            </form>
+            <form>
+                <fieldset><legend>Interesses</legend>
+                    <label>
+                        <input type=checkbox name=artes>Artes
+                        <input type=checkbox name=futebol>Futebol
+                        <input type=checkbox name=filmes>Filmes
+                        <input type=checkbox name=series>Séries
+                        <input type=checkbox name=musica>Música
+                        <input type=checkbox name=ciencia>Ciência
+                        <input type=checkbox name=tecnologia>Tecnologia
+                        <input type=checkbox name=arquitetura>Arquitetura
+                    </label>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
