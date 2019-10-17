@@ -14,58 +14,74 @@ o3edit css - o5° edit geral:
 Nessa edição eu comecei a trabalhar com as imagens que estão no conteúdo.
 To tentando fazer com que elas fiquem só no conteudo de cada um e não tome espaço do outro tema.
 
+o4 edit css - o6° edit geral:
+Nesse edit eu finalmente corrigi o erro que tava dando no footer. Era uma div q eu não fechei no HTML.
+Tirei a imagem e com isso eu usei o CSS pra melhorar a o nome do site, JGamers.
+Adicinei a fonte para o HTML no CSS colocando no body tmb essa font.
+Retirei algumas classes que não usaria.
+Retirei os comentários que eram do código de uma aula que eu havia reaproveitado nesse meu código.
+
+-------------------------------------
 
 
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
 nav{
 	display: flex;
-	flex-direction: column;/*direção do conteúdo*/
-	align-items: center;/*Alinhamento dos itens*/
-	background-color: #4F4F4F; /*cor de fundo*/
+	flex-direction: column;
+	align-items: center;
+	background-color: #4F4F4F; 
 }
 nav ul{
 	display: flex;
-	padding: 0;/*espaçamento interno*/
-	margin: 0;/*espaçamento externo*/
-	width: 70%;/*largura em 70% da pagina*/
-	list-style: none;/*remove marcadores de lista*/
-	color: #f1f1f1; /*cor da fonte*/
+	padding: 0;
+	margin: 0;
+	width: 70%;
+	list-style: none;
 }
 nav ul li{
 	display: flex;
-flex-direction: row;/*direção do conteúdo*/
-width: 100%;/*largura do elemento em 100%*/
-height: 50px;/*algura do elemento*/
-line-height: 50px;/*alinhamento horizontal*/
-text-align: center;/*texto centralizado*/
+flex-direction: row;
+width: 100%;
+height: 50px;
+line-height: 50px;
+text-align: center;
 }
 nav ul li a{
-	width: 100%;/*largura do elemento em 100%*/
-text-decoration: none;/*remove underline do link*/
+	width: 100%;
+text-decoration: none;
 color: #FFFFFF;
 }
 nav ul li a:hover{
-background-color: #008DA9;/*cor de fundo*/
+background-color: #008DA9;
 color: #000000;
 
 }
 .titulo{
-	background-color: #00BFFF;
-	display: flex;
-}
-.geral, .te{
-	background-color: #E8E8E8;
+	color: #F8F8FF;
+	letter-spacing: -2px;
+	background-color: #63B8FF;
 	display: flex;
 	padding-top: 15px;
 	padding-left: 240px;
 	padding-right:240px;
 }
-.rune, .lol, .cf, .six{
-	width: 160px;
-	height: 120px;
+.geral{
+	display: flex;
+	background-color: #E8E8E8;
+	padding-top: 15px;
+	padding-left: 240px;
+	padding-right:240px;
 }
-figure {
-  float: right;
-  margin: 10px 10px 10px 10px;
+footer{
+	background-color: #6CA6CD;
+	color: #ebebeb;
+	padding: 20px 0;
+	text-align: center;
+	font-weight: 100;
 }
+
 
 
